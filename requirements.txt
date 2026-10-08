@@ -1,9 +1,24 @@
+# Framework Web y Dashboard
 streamlit>=1.40,<2
-plotly>=5.24,<7
-pandas>=2.2,<3
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+
+# Base de Datos, ORM y Migraciones
+sqlmodel>=0.0.22,<1
+alembic>=1.13,<2
+pymysql>=1.1,<2
+cryptography>=40.0
+pydantic-settings>=2.4,<3
+
+# Procesamiento Numérico, Geográfico y Visualización
 numpy>=1.26,<3
+pandas>=2.2,<3
+plotly>=5.24,<7
+
+# Clientes HTTP y APIs Externas
 requests>=2.31,<3
 earthengine-api>=1.6,<2
 pypdf>=5.0,<7
-pymysql>=1.1,<2
-cryptography>=40.0
+
+# Testing
+pytest>=8.0,<10
