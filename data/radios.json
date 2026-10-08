@@ -1,0 +1,115 @@
+[
+  {
+    "manufacturer": "Mimosa",
+    "model": "C6x",
+    "source_file": "Mimosa-Radisys-DS-2026-07-C6x.pdf",
+    "frequency_min_ghz": 5.15,
+    "frequency_max_ghz": 7.125,
+    "max_output_power_dbm": 24.0,
+    "integrated_antenna_gain_dbi": 8.0,
+    "throughput_gbps": 2.0,
+    "bandwidths_mhz": [
+      20,
+      40,
+      80,
+      160
+    ],
+    "mimo": "2x2",
+    "modulation": "BPSK-1024QAM",
+    "rx_sensitivity_dbm": {
+      "20": -96,
+      "40": -93,
+      "80": -90,
+      "160": -87
+    },
+    "notes": "Pre-cargado desde datasheet Mimosa/Radisys."
+  },
+  {
+    "manufacturer": "Mimosa",
+    "model": "C6x-LE",
+    "source_file": "Mimosa-Radisys-DS-2026-07-C6x-LE.pdf",
+    "frequency_min_ghz": 5.15,
+    "frequency_max_ghz": 7.125,
+    "max_output_power_dbm": 24.0,
+    "integrated_antenna_gain_dbi": 8.0,
+    "throughput_gbps": 1.0,
+    "bandwidths_mhz": [
+      20,
+      40,
+      80
+    ],
+    "mimo": "2x2",
+    "modulation": "BPSK-1024QAM",
+    "rx_sensitivity_dbm": {
+      "20": -96,
+      "40": -93,
+      "80": -90
+    },
+    "notes": "Pre-cargado desde datasheet Mimosa/Radisys."
+  },
+  {
+    "manufacturer": "Mimosa",
+    "model": "B6x",
+    "source_file": "Mimosa-Radisys-DS-2026-05-B6x.pdf",
+    "frequency_min_ghz": 5.15,
+    "frequency_max_ghz": 6.425,
+    "max_output_power_dbm": 24.0,
+    "integrated_antenna_gain_dbi": null,
+    "throughput_gbps": 3.0,
+    "bandwidths_mhz": [
+      160,
+      320
+    ],
+    "mimo": "4x4",
+    "modulation": "1024QAM",
+    "rx_sensitivity_dbm": {
+      "20": -94,
+      "40": -91,
+      "80": -87,
+      "160": -84
+    },
+    "notes": "Pre-cargado desde datasheet Mimosa/Radisys. Usa antena N5-X modular."
+  },
+  {
+    "manufacturer": "SAF",
+    "model": "FreeMile5 - Preliminary Datasheet - WEB FILE - A4 - v100626",
+    "source_file": "FreeMile5 - Preliminary Datasheet - WEB FILE - A4 - v100626.pdf",
+    "frequency_min_ghz": 4.92,
+    "frequency_max_ghz": 5.925,
+    "max_output_power_dbm": 28.0,
+    "integrated_antenna_gain_dbi": 0.0,
+    "throughput_gbps": 1.7,
+    "bandwidths_mhz": [
+      5,
+      20,
+      40,
+      80,
+      160
+    ],
+    "mimo": "2X2",
+    "modulation": "QPSK, 16QAM, 32QAM, 64QAM, 128QAM, 256QAM, 512QAM, 1024QAM",
+    "rx_sensitivity_dbm": {},
+    "notes": "Datos extraídos automáticamente del datasheet; revisar antes de usar en diseño definitivo."
+  },
+  {
+    "manufacturer": "SAF",
+    "model": "FreeMile5",
+    "source_file": "FreeMile5 - Preliminary Datasheet - WEB FILE - A4 - v100626.pdf",
+    "frequency_min_ghz": 4.92,
+    "frequency_max_ghz": 5.925,
+    "max_output_power_dbm": 28.0,
+    "integrated_antenna_gain_dbi": 0.0,
+    "throughput_gbps": 1.7,
+    "bandwidths_mhz": [
+      5,
+      20,
+      40,
+      80,
+      160
+    ],
+    "mimo": "2X2",
+    "modulation": "QPSK, 16QAM, 32QAM, 64QAM, 128QAM, 256QAM, 512QAM, 1024QAM",
+    "rx_sensitivity_dbm": {},
+    "notes": "Datos extraídos automáticamente del datasheet; revisar antes de usar en diseño definitivo."
+  }
+]
